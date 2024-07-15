@@ -9,5 +9,5 @@ use App\Http\Controllers\AuthController;
 // })->middleware('auth:api');
 
 // {{ Login Routes }}
-Rout::post('/login' , [AuthController::class, 'login']);
+Route::post('/login' , [AuthController::class, 'login']);
 
